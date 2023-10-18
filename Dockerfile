@@ -4,5 +4,5 @@
 
 FROM fundingsocietiesdocker/openjdk19-alpine
 LABEL authors="olusolabadmus"
-ADD target/*jar blog.jar
+ADD /target/blog-0.0.1-SNAPSHOT.jar blog.jar
 ENTRYPOINT ["java", "-jar", "blog.jar"]
