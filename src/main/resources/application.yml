@@ -6,7 +6,7 @@ spring:
   application:
     name: blog-posts
   datasource:
-    url: jdbc:postgresql:dpg-cknqtcujmi5c73e0i3n0-a/blogpost_we86
+    url: jdbc:postgresql://dpg-cknqtcujmi5c73e0i3n0-a.oregon-postgres.render.com
     username: badmus
     password: ryYKcjTYsO1bWG6W4dF1WpToGjAiUQFX
   jpa:
