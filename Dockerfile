@@ -1,6 +1,6 @@
 FROM yannoff/maven:3-openjdk-19 AS build
 COPY . .
-RUN mvn clean package -DskipTests
+RUN mvn clean install package -DskipTests
 
 FROM openjdk:19-alpine
 LABEL authors="olusolabadmus"
