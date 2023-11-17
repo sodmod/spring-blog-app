@@ -6,9 +6,9 @@ spring:
   application:
     name: blog-posts
   datasource:
-    url: jdbc:postgresql://dpg-cknqtcujmi5c73e0i3n0-a.oregon-postgres.render.com/blogpost_we86
-    username: badmus
-    password: ryYKcjTYsO1bWG6W4dF1WpToGjAiUQFX
+    url: jdbc:postgresql://flora.db.elephantsql.com:5432/lsggevzp
+    username: lsggevzp
+    password: QLxGtPlnTE2fMV0sbe9_6TRcBm_uPSI4
   jpa:
     show-sql: true
     hibernate:
