@@ -20,3 +20,9 @@ spring:
   reactor:
     debug-agent:
       enabled: true
+
+
+#      datasource:
+#        url: jdbc:postgresql://dpg-cknqtcujmi5c73e0i3n0-a.oregon-postgres.render.com/blogpost_we86
+#        username: badmus
+#        password: ryYKcjTYsO1bWG6W4dF1WpToGjAiUQFX
